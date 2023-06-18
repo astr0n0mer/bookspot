@@ -20,13 +20,7 @@ export default function BookCard({
           {title}
         </h3>
 
-        <div>
-          {authors?.map((author) => (
-            <span key={author} className="text-sm">
-              {author}
-            </span>
-          ))}
-        </div>
+        <div className="my-1 text-sm">{authors.join(", ")}</div>
 
         <p className="mt-4 text-sm md:text-base">{summary}</p>
       </figcaption>

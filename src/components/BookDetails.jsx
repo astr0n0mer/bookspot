@@ -45,7 +45,7 @@ export default function BookDetails({ book, dialogRef }) {
 
           <p>
             <span className="font-semibold">Categories: </span>
-            {book?.categories.join(",")}
+            {book?.categories.join(", ")}
           </p>
           <p>
             <span className="font-semibold">Copyright: </span>
