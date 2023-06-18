@@ -1,0 +1,13 @@
+@tailwind base;
+
+html {
+  scrollbar-gutter: stable;
+}
+
+@tailwind components;
+
+dialog::backdrop {
+  backdrop-filter: blur(6px);
+}
+
+@tailwind utilities;
