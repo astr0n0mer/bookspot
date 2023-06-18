@@ -29,13 +29,7 @@ export default function BookDetails({ book, dialogRef }) {
           {book.title}
         </h3>
 
-        <div>
-          {book.authors?.map((author) => (
-            <span key={author} className="text-sm">
-              {author}
-            </span>
-          ))}
-        </div>
+        <div className="my-1 text-sm">{book.authors.join(", ")}</div>
 
         <div className="my-4 flex flex-col items-start gap-2">
           <p className="text-justify text-sm md:text-base">
