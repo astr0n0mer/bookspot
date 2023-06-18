@@ -31,8 +31,8 @@ export default function BookDetails({ book, dialogRef }) {
 
         <div className="my-1 text-sm">{book.authors.join(", ")}</div>
 
-        <div className="my-4 flex flex-col items-start gap-2">
-          <p className="text-justify text-sm md:text-base">
+        <div className="my-4 flex flex-col items-start gap-2 text-sm md:text-base">
+          <p className="text-justify">
             <span className="font-semibold">Description: </span>
             {book.summary}
           </p>
