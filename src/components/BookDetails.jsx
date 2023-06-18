@@ -8,7 +8,7 @@ function getAmazonSearchUrl(isbn) {
 
 export default function BookDetails({ book, dialogRef }) {
   return (
-    <figure className="relative grid place-items-center gap-4 pt-3 sm:m-3 sm:grid-cols-[2fr_3fr] sm:p-0 ">
+    <figure className="relative grid place-items-center gap-4 pt-8 sm:m-3 sm:grid-cols-[2fr_3fr] sm:p-0 ">
       <button
         className="absolute right-0 top-0 sm:-translate-y-2/3 sm:translate-x-2/3"
         onClick={() => dialogRef.current.close()}
