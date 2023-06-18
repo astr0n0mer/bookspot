@@ -2,7 +2,7 @@
 
 [BookSpot](https://bookspot-delta.vercel.app/) is a web app that allows you to find your favorite books online. It is created using React JS, Tailwind CSS and Vite.
 
-[![](./public/bookspot-home.png)](https://bookspot-delta.vercel.app/)
+[![BookSpot Home](./public/bookspot-home.png)](https://bookspot-delta.vercel.app/)
 
 ## Steps to run the project locally
 
