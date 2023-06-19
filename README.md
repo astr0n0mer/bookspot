@@ -1,4 +1,4 @@
-# 📚 BookSpot
+# <img src="./src/assets/favicon.svg" alt="BookSpot" width="35" /> BookSpot
 
 [BookSpot](https://bookspot-delta.vercel.app/) is a web app that allows you to find your favorite books online. It is created using React JS, Tailwind CSS and Vite.
 
