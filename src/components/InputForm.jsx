@@ -29,6 +29,7 @@ export default function InputForm({ setBooks, isLoading, setIsLoading }) {
         className="flex-1 rounded-lg px-4 py-2 shadow-md"
         placeholder="Search books by title..."
         name="title"
+        required
         accessKey="s"
         title="Shortcut: Alt + S"
         onFocus={(e) => e.target.select()}
