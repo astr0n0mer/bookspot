@@ -30,6 +30,7 @@ export default function InputForm({ setBooks, isLoading, setIsLoading }) {
         placeholder="Search books by title..."
         name="title"
         required
+        minLength="2"
         accessKey="s"
         title="Shortcut: Alt + S"
         onFocus={(e) => e.target.select()}
